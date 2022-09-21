@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    padding: 40px 80px;
+    padding: 18px 80px;
 }
 
 .navbar__conteudo {
@@ -63,3 +63,31 @@ body {
 }
 /**/
 
+/*estilo do cabeçalho*/
+.cabecalho {
+    padding: 96px 0;
+    text-align: center;
+}
+
+.cabecalho__subtitulo {
+    font-weight: 600;
+    color: #8E2424;
+    line-height: 26px;
+}
+
+.cabecalho__titulo {
+    font-weight: 600;
+    color: #101828;
+    font-size: 48px;
+    padding: 24px 0;
+    line-height: 60px;
+}
+
+.cabecalho__descricao {
+    width: 792px;
+    color: #667085;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 12px 0 0;
+    display: inline-block;
+}
