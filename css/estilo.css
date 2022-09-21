@@ -159,5 +159,7 @@ body {
 
 .chamada__imagem-reuniao {
     padding: 64px 0;
+    width: 88vw;
+    max-width: 1216px;
 }
 /**/
