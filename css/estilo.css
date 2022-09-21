@@ -1,10 +1,15 @@
 /*estilo da navbar*/
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 1rem;
 }
 
 .navbar {
     padding: 18px 80px;
+}
+
+.navbar__logo {
+    display: inline-block;
 }
 
 .navbar__conteudo {
@@ -19,7 +24,6 @@ body {
     width: 362px;
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
     font-weight: 500;
 }
 
@@ -40,7 +44,6 @@ body {
 
 .navbar__botao {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -78,16 +81,83 @@ body {
 .cabecalho__titulo {
     font-weight: 600;
     color: #101828;
-    font-size: 48px;
+    font-size: 3rem;
     padding: 24px 0;
     line-height: 60px;
 }
 
 .cabecalho__descricao {
-    width: 792px;
+    width: 55vw;
     color: #667085;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     padding: 12px 0 0;
     display: inline-block;
 }
+/**/
+
+/*estilo da seção de metricas*/
+.metricas {
+    display: grid;
+    grid-template-columns: repeat(4, 19vw);
+    justify-content: center;
+    grid-column-gap: 32px;
+    padding: 96px 0;
+}
+
+.metricas__titulo {
+    font-weight: 600;
+    font-size: 3.75rem;
+    color: #8E2424;
+    line-height: 72px;
+}
+
+.metricas__subtitulo {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #101828;
+    line-height: 28px;
+}
+
+.metricas__texto {
+    color: #667085;
+    line-height: 24px;
+    width: 280px;
+}
+/**/
+
+/*estilo da seção da chamada*/
+.chamada {
+    text-align: center;
+    padding: 64px 0
+}
+
+.chamada__subtitulo {
+    font-weight: 500;
+    display: inline-block;
+    width: 125px;
+    font-size: 0.875rem;
+    line-height: 20px;
+    color: #8E2424;
+    background-color: #8E24240D;
+    border-radius: 16px;
+}
+
+.chamada__titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #101828;
+    padding: 16px 0 20px;
+}
+
+.chamada__descricao {
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #667085;
+}
+
+.chamada__imagem-reuniao {
+    padding: 64px 0;
+}
+/**/
