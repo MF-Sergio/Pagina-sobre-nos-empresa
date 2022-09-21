@@ -45,6 +45,7 @@ body {
 .navbar__botao {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    font-size: 1rem;
     cursor: pointer;
 }
 
