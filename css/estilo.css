@@ -1,12 +1,13 @@
+/*estilo da navbar*/
 body {
     font-family: 'Inter', sans-serif;
 }
 
-.cabecalho {
+.navbar {
     padding: 40px 80px;
 }
 
-.cabecalho__conteudo {
+.navbar__conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +15,7 @@ body {
     padding: 0 32px;
 }
 
-.cabecalho__navegacao {
+.navbar__navegacao {
     width: 362px;
     display: flex;
     justify-content: space-between;
@@ -22,28 +23,29 @@ body {
     font-weight: 500;
 }
 
-.cabecalho__link {
+.navbar__link {
     text-decoration: none;
     color: #667085;
 }
 
-.cabecalho__espaco {
+.navbar__espaco {
     width: 142px;
 }
 
-.cabecalho__botoes-de-acesso {
+.navbar__botoes-de-acesso {
     width: 207px;
     display: flex;
     justify-content: space-between;
 }
 
-.cabecalho__botao {
+.navbar__botao {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
-.cabecalho__botao--entrar {
+.navbar__botao--entrar {
     width: 83px;
     height: 44px;
     border: none;
@@ -51,7 +53,7 @@ body {
     color: #667085;
 }
 
-.cabecalho__botao--cadastrar {
+.navbar__botao--cadastrar {
     width: 112px;
     height: 44px;
     background-color: #8E2424;
@@ -59,3 +61,5 @@ body {
     border: none;
     border-radius: 8px;
 }
+/**/
+
