@@ -166,6 +166,7 @@ body {
 }
 /**/
 
+/*estilo da seção de vagas*/
 .vagas {
     font-weight: 500;
     width: 53%;
@@ -205,4 +206,53 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 24px;
+}
+/**/
+
+.depoimento {
+    width: 84%;
+    max-width: 1216px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 64px;
+    background-color: #C3191908;
+    border-radius: 16px;
+}
+
+.depoimento__subtitulo {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #8E2424;
+}
+
+.depoimento__mensagem {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #101828;
+    width: 75.5;
+    margin: 16px 0 32px;
+}
+
+.depoimento__perfil {
+    display: grid;
+}
+
+.depoimento__perfil-foto {
+    margin: 0 auto 16px;
+}
+
+.depoimento__perfil-nome {
+    font-weight: 500;
+    color: #101828;
+    line-height: 24px;
+}
+
+.depoimento__perfil-profissao {
+    font-size: 0.875rem;
+    color: #667085;
+    line-height: 20px;
+}
+
+.formulario {
+    padding: 96px;
 }
