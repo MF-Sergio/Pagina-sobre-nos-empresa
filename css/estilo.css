@@ -3,38 +3,31 @@ body {
 }
 
 /*estilo da navbar*/
-
 .navbar {
-    padding: 18px 80px;
+    text-align: center;
 }
 
 .navbar__conteudo {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
     align-items: center;
     height: 44px;
     padding: 0 32px;
-}
-
-.navbar__logo {
-    width: auto;
+    margin: 18px 80px;
+    gap: 8.26vw;
 }
 
 .navbar__navegacao {
     width: 25.1vw;
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
     font-weight: 500;
     flex-wrap: wrap;
+    margin-right: 18.1vw;
 }
 
 .navbar__link {
     text-decoration: none;
     color: #667085;
-}
-
-.navbar__gap {
-    width: 9.85vw;
 }
 
 .navbar__botoes-de-acesso {
@@ -70,8 +63,12 @@ body {
 
 /*estilo do cabeçalho*/
 .cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
     padding: 96px 0;
-    text-align: center;
+    
 }
 
 .cabecalho__titulo-da-pagina {
@@ -84,7 +81,6 @@ body {
     font-weight: 600;
     color: #101828;
     font-size: 3rem;
-    padding: 24px 0;
     line-height: 60px;
 }
 
@@ -94,7 +90,7 @@ body {
     font-size: 1.25rem;
     line-height: 30px;
     padding: 12px 0 0;
-    display: inline-block;
+    text-align: center;
 }
 /**/
 
@@ -130,13 +126,15 @@ body {
 
 /*estilo da seção da chamada*/
 .chamada {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 64px 0
 }
 
 .chamada__vagas-abertas {
     font-weight: 500;
-    display: inline-block;
+    text-align: center;
     width: 8.7vw;
     font-size: 0.875rem;
     line-height: 20px;
@@ -171,8 +169,9 @@ body {
     font-weight: 500;
     width: 53%;
     margin: 0 auto 96px;
-    display: grid;
-    row-gap: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
 .vagas-setor {
@@ -210,7 +209,9 @@ body {
 /**/
 
 .depoimento {
-    width: 84%;
+    display: grid;
+    gap: 16px;
+    box-sizing: border-box;
     max-width: 1216px;
     text-align: center;
     margin: 0 auto;
@@ -229,8 +230,7 @@ body {
     font-weight: 500;
     font-size: 2.25rem;
     color: #101828;
-    width: 75.5;
-    margin: 16px 0 32px;
+    margin-bottom: 16px;
 }
 
 .depoimento__perfil {
