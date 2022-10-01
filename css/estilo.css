@@ -128,6 +128,7 @@ body {
 .chamada {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     align-items: center;
     padding: 64px 0
 }
@@ -148,7 +149,7 @@ body {
     font-size: 2.25rem;
     line-height: 44px;
     color: #101828;
-    margin: 16px 0 20px;
+    margin-bottom: 4px;
 }
 
 .chamada__descricao {
@@ -158,7 +159,7 @@ body {
 }
 
 .chamada__imagem-reuniao {
-    margin: 64px 0 0;
+    margin-top: 48px;
     width: 84%;
     max-width: 1216px;
 }
@@ -214,7 +215,7 @@ body {
     box-sizing: border-box;
     max-width: 1216px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 96px;
     padding: 64px;
     background-color: #C3191908;
     border-radius: 16px;
@@ -253,6 +254,65 @@ body {
     line-height: 20px;
 }
 
-.formulario {
-    padding: 96px;
+/*estilização do rodapé*/
+.rodape {
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    background-color: #F9FAFB;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #101828;;
+}
+
+.rodape__descricao {
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #667085;
+}
+
+.rodape__formulario {
+    margin: 20px 0 12px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.rodape__email {
+    padding: 12px 14px 12px 16px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 48px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.rodape__email::placeholder {
+    font-family: 'Inter', sans-serif;
+    color: 667085;
+
+}
+
+.rodape__cadastrar {
+    font-family: 'Inter', sans-serif;
+    width: 116px;
+    color: #FFFFFF;
+    background-color: #8E2424;
+    border: none;
+    border-radius: 8px;
+}
+
+.rodape__copyright {
+    line-height: 24px;
+    color: #98A2B3;
+}
+
+.rodape__copyright::before {
+    content: "\00a9";
 }
