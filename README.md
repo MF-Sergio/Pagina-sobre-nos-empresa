@@ -19,13 +19,9 @@ A página consiste em:
  *<a href="https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1">Projeto do FIGMA usado como base</a>*
   
 <br>
- 
- >### :pencil2:Instrutor do cursos: Matheus Alberto
 
 ## Tecnologias usadas
 
 - `HTML5`
 
 - `CSS3`
-
-- `JavaScript`
