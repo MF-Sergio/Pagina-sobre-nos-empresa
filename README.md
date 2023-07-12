@@ -13,8 +13,6 @@
 
 :small_blue_diamond: [Técnicas utilizadas](#técnicas-utilizadas)
 
-:small_blue_diamond: [Deploy da página](#deploy-da-página-dash)
-
 :small_blue_diamond: [Créditos](#design-do-figma)
 
 <br>
@@ -48,12 +46,6 @@ A página consiste em:
 - Adição de imagens adaptadas.
 
 entre outras...
-
-<br>
-
-## Deploy da página :dash:
-
-> https://mf-sergio.github.io/Desafio-7daysOfCode-HTML-CSS/
 
 <br>
 
