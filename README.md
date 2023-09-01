@@ -13,6 +13,8 @@
 
 :small_blue_diamond: [Técnicas utilizadas](#técnicas-utilizadas)
 
+:small_blue_diamond: [Deploy da Página](#deploy-da-página-dash)
+
 :small_blue_diamond: [Créditos](#design-do-figma)
 
 <br>
@@ -52,6 +54,12 @@ entre outras...
 ## Design do FIGMA
 
 > https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1
+
+<br>
+
+## Deploy da página :dash:
+
+> https://pagina-sobre-nos-empresa.vercel.app
 
 <br>
 
